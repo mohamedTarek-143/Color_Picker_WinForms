@@ -52,6 +52,7 @@
             // 
             // redTrackBar
             // 
+            this.redTrackBar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.redTrackBar.LargeChange = 30;
             this.redTrackBar.Location = new System.Drawing.Point(134, 93);
             this.redTrackBar.Maximum = 255;
@@ -63,6 +64,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.label1.Font = new System.Drawing.Font("MV Boli", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -75,6 +77,7 @@
             // 
             // greenTrackBar
             // 
+            this.greenTrackBar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.greenTrackBar.LargeChange = 30;
             this.greenTrackBar.Location = new System.Drawing.Point(134, 173);
             this.greenTrackBar.Maximum = 255;
@@ -86,6 +89,7 @@
             // 
             // blueTrackBar
             // 
+            this.blueTrackBar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.blueTrackBar.LargeChange = 30;
             this.blueTrackBar.Location = new System.Drawing.Point(134, 253);
             this.blueTrackBar.Maximum = 255;
@@ -97,6 +101,7 @@
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Red;
@@ -108,6 +113,7 @@
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Green;
@@ -120,6 +126,7 @@
             // 
             // label4
             // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Blue;
@@ -131,6 +138,7 @@
             // 
             // redLbl
             // 
+            this.redLbl.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.redLbl.AutoSize = true;
             this.redLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.redLbl.Location = new System.Drawing.Point(822, 97);
@@ -141,6 +149,7 @@
             // 
             // greenLbl
             // 
+            this.greenLbl.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.greenLbl.AutoSize = true;
             this.greenLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.greenLbl.Location = new System.Drawing.Point(822, 173);
@@ -151,6 +160,7 @@
             // 
             // blueLbl
             // 
+            this.blueLbl.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.blueLbl.AutoSize = true;
             this.blueLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.blueLbl.Location = new System.Drawing.Point(822, 253);
@@ -161,6 +171,7 @@
             // 
             // hexaCodeLbl
             // 
+            this.hexaCodeLbl.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.hexaCodeLbl.AutoSize = true;
             this.hexaCodeLbl.Cursor = System.Windows.Forms.Cursors.Hand;
             this.hexaCodeLbl.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -173,6 +184,7 @@
             // 
             // copyBtn
             // 
+            this.copyBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.copyBtn.BackgroundImage = global::ColorPicker.Properties.Resources.copy_document;
             this.copyBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.copyBtn.Location = new System.Drawing.Point(533, 328);
@@ -189,6 +201,7 @@
             // 
             // chsColorBtn
             // 
+            this.chsColorBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.chsColorBtn.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chsColorBtn.Location = new System.Drawing.Point(392, 404);
             this.chsColorBtn.Name = "chsColorBtn";
